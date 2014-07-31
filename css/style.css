@@ -1,0 +1,12 @@
+.row-margin{
+	margin: 5px;
+}
+span.addon-clear-bg{
+	background-color: #fff;
+	color: #433CE2;
+	cursor: pointer;
+}
+#txt-date, #from-date, #to-date{
+	background-color: #fff;
+	font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Date Time Picker</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/datepicker.css">
+</head>
+<body>
+	<div class="container-fluid">
+			<div class="row row-header row-margin">
+				<div class="col-log-12">
+					
+				</div>
+			</div>
+			
+			<div class="row row-body">
+				<div class="col-lg-10 col-lg-offset-1">
+					<div class="col-lg-2 col-lg-offset-1">
+						<div id="sandbox-container">
+							<div class="input-group input-group-sm date">
+							  <input type="text" class="form-control custom-form-control" id='txt-date' placeholder="Date" disabled>
+							  <span class="input-group-addon addon-clear-bg"><span class="glyphicon glyphicon-calendar"></span></span>
+							</div>
+						</div>					
+					</div>
+					<div class="col-lg-2">
+						<button type="button" class="btn btn-default" id="btn-show-date">Show Date</button>
+					</div>	
+
+				</div>
+			</div>
+
+			<div class="row row-margin">
+				<div class="col-lg-10 col-lg-offset-1">
+					<div class="col-lg-3 col-lg-offset-1">
+
+						<div id="sandbox-container2">
+							<div class="input-daterange input-group input-group-sm" id="datepicker">
+							    <input type="text" class="input-sm form-control" name="start" id="from-date"placeholder="From Date"/>
+							    <span class="input-group-addon addon-clear-bg">
+							    	<span class="glyphicon glyphicon-arrow-left"></span>&nbsp;
+							    	<span class="glyphicon glyphicon-calendar"></span>&nbsp;
+							    	<span class="glyphicon glyphicon-arrow-right"></span>
+							    </span>
+							    <input type="text" class="input-sm form-control" name="end" id="to-date" placeholder="To Date"/>
+							</div>
+						</div>		
+
+					</div>
+				</div>
+			</div>
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+	<!-- <script type="text/javascript" src="js/locales/bootstrap-datepicker.kh.js" charset="UTF-8"></script> -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
